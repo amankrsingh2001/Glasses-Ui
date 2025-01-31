@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+    /* Width of the scrollbar */
+    .scrollbar::-webkit-scrollbar {
+        background-color: transparent;
+        height: 8px;
+    }
+    .scrollbar::-webkit-scrollbar-thumb{
+        background-color: orange;
+        border-radius: 12px;
+        
+    }
+    .imgscrollbar::-webkit-scrollbar {
+        background-color: transparent;
+        height: 0;
+    }
+    .navscrollbar::-webkit-scrollbar{
+        background-color: rgb(184, 179, 179);
+        height: 2px;
+    }
+  
+  }
