@@ -10,7 +10,7 @@ const App = ()=>{
                     </div>
                     <div className="flex justify-center items-center gap-7 mr-5 px-12 ">
                         <p className="text-md font-light font-sans flex whitespace-nowrap gap-2">EN : <span className="font-light text-gray-400 mr-[4px]"> IN</span></p>
-                        <p className="text-md  font-light font-sans hidden md:block ">India : <span>Russia</span></p>
+                        <p className="text-md  font-light font-sans hidden md:block ">Country : <span>India</span></p>
                         <p className="text-md  font-light font-sans hidden md:block">Profile</p>
                         <p className="text-md font-light font-sans hidden md:block">Whislist<span> [0]</span></p>
                         <p className="text-md font-light font-sans hidden md:block">Search</p>
